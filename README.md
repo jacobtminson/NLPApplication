@@ -1,0 +1,2 @@
+# NLPApplication
+This Application was created to recognize text patterns using Sklearn's TfidfVectorizer and NearestNeighbors libraries to compare two datasets.  One dataset was a list of leads and the other was a list of accounts, both from a CRM.  There was no foreign key to join datasets on, so I created this code to match strings between two similar columns in the dataset.  This comparison showed that anything above a 30% confidence was reliable, and we were able to match 67% of the contacts to accounts in the CRM. 
